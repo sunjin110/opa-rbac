@@ -15,9 +15,11 @@ func main() {
 	fmt.Println("=== Open Policy Agent Role-based access control example ===")
 
 	// 普通に実装
-	// pattern1()
+	fmt.Println("=== pattern 1 ===")
+	pattern1()
 
 	// データを動的に入れるパターン
+	fmt.Println("=== pattern 2 ===")
 	pattern2()
 }
 
